@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1E0C29015FA026600C3A820 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E0C28F15FA026600C3A820 /* Cocoa.framework */; };
+		A1E0C29215FA026600C3A820 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E0C29115FA026600C3A820 /* AppleScriptObjC.framework */; };
+		A1E0C29C15FA026600C3A820 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1E0C29A15FA026600C3A820 /* InfoPlist.strings */; };
+		A1E0C29E15FA026600C3A820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E0C29D15FA026600C3A820 /* main.m */; };
+		A1E0C2A215FA026600C3A820 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A1E0C2A015FA026600C3A820 /* Credits.rtf */; };
+		A1E0C2A415FA026600C3A820 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = A1E0C2A315FA026600C3A820 /* AppDelegate.applescript */; };
+		A1E0C2A715FA026600C3A820 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E0C2A515FA026600C3A820 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1E0C28B15FA026600C3A820 /* testPython.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testPython.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E0C28F15FA026600C3A820 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A1E0C29115FA026600C3A820 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		A1E0C29415FA026600C3A820 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A1E0C29515FA026600C3A820 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A1E0C29615FA026600C3A820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1E0C29915FA026600C3A820 /* testPython-Info.plist */ = {isa = PBXFileReference; path = "testPython-Info.plist"; sourceTree = "<group>"; };
+		A1E0C29B15FA026600C3A820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1E0C29D15FA026600C3A820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1E0C29F15FA026600C3A820 /* testPython-Prefix.pch */ = {isa = PBXFileReference; path = "testPython-Prefix.pch"; sourceTree = "<group>"; };
+		A1E0C2A115FA026600C3A820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A1E0C2A315FA026600C3A820 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		A1E0C2A615FA026600C3A820 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E0C28815FA026600C3A820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E0C29015FA026600C3A820 /* Cocoa.framework in Frameworks */,
+				A1E0C29215FA026600C3A820 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1E0C28015FA026500C3A820 = {
+			isa = PBXGroup;
+			children = (
+				A1E0C29715FA026600C3A820 /* testPython */,
+				A1E0C28E15FA026600C3A820 /* Frameworks */,
+				A1E0C28C15FA026600C3A820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E0C28C15FA026600C3A820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0C28B15FA026600C3A820 /* testPython.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E0C28E15FA026600C3A820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0C28F15FA026600C3A820 /* Cocoa.framework */,
+				A1E0C29115FA026600C3A820 /* AppleScriptObjC.framework */,
+				A1E0C29315FA026600C3A820 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E0C29315FA026600C3A820 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0C29415FA026600C3A820 /* AppKit.framework */,
+				A1E0C29515FA026600C3A820 /* CoreData.framework */,
+				A1E0C29615FA026600C3A820 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A1E0C29715FA026600C3A820 /* testPython */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0C2A315FA026600C3A820 /* AppDelegate.applescript */,
+				A1E0C2A515FA026600C3A820 /* MainMenu.xib */,
+				A1E0C29815FA026600C3A820 /* Supporting Files */,
+			);
+			path = testPython;
+			sourceTree = "<group>";
+		};
+		A1E0C29815FA026600C3A820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0C29915FA026600C3A820 /* testPython-Info.plist */,
+				A1E0C29A15FA026600C3A820 /* InfoPlist.strings */,
+				A1E0C29D15FA026600C3A820 /* main.m */,
+				A1E0C29F15FA026600C3A820 /* testPython-Prefix.pch */,
+				A1E0C2A015FA026600C3A820 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E0C28A15FA026600C3A820 /* testPython */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E0C2AA15FA026600C3A820 /* Build configuration list for PBXNativeTarget "testPython" */;
+			buildPhases = (
+				A1E0C28715FA026600C3A820 /* Sources */,
+				A1E0C28815FA026600C3A820 /* Frameworks */,
+				A1E0C28915FA026600C3A820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testPython;
+			productName = testPython;
+			productReference = A1E0C28B15FA026600C3A820 /* testPython.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E0C28215FA026500C3A820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = snda;
+			};
+			buildConfigurationList = A1E0C28515FA026500C3A820 /* Build configuration list for PBXProject "testPython" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1E0C28015FA026500C3A820;
+			productRefGroup = A1E0C28C15FA026600C3A820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E0C28A15FA026600C3A820 /* testPython */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E0C28915FA026600C3A820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E0C29C15FA026600C3A820 /* InfoPlist.strings in Resources */,
+				A1E0C2A215FA026600C3A820 /* Credits.rtf in Resources */,
+				A1E0C2A715FA026600C3A820 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E0C28715FA026600C3A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E0C29E15FA026600C3A820 /* main.m in Sources */,
+				A1E0C2A415FA026600C3A820 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1E0C29A15FA026600C3A820 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E0C29B15FA026600C3A820 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1E0C2A015FA026600C3A820 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E0C2A115FA026600C3A820 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A1E0C2A515FA026600C3A820 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E0C2A615FA026600C3A820 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1E0C2A815FA026600C3A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1E0C2A915FA026600C3A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A1E0C2AB15FA026600C3A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testPython/testPython-Prefix.pch";
+				INFOPLIST_FILE = "testPython/testPython-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1E0C2AC15FA026600C3A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testPython/testPython-Prefix.pch";
+				INFOPLIST_FILE = "testPython/testPython-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E0C28515FA026500C3A820 /* Build configuration list for PBXProject "testPython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E0C2A815FA026600C3A820 /* Debug */,
+				A1E0C2A915FA026600C3A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E0C2AA15FA026600C3A820 /* Build configuration list for PBXNativeTarget "testPython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E0C2AB15FA026600C3A820 /* Debug */,
+				A1E0C2AC15FA026600C3A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E0C28215FA026500C3A820 /* Project object */;
+}
