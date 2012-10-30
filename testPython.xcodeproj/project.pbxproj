@@ -23,10 +23,10 @@
 		A1E0C29415FA026600C3A820 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A1E0C29515FA026600C3A820 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A1E0C29615FA026600C3A820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A1E0C29915FA026600C3A820 /* testPython-Info.plist */ = {isa = PBXFileReference; path = "testPython-Info.plist"; sourceTree = "<group>"; };
+		A1E0C29915FA026600C3A820 /* testPython-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testPython-Info.plist"; sourceTree = "<group>"; };
 		A1E0C29B15FA026600C3A820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1E0C29D15FA026600C3A820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1E0C29F15FA026600C3A820 /* testPython-Prefix.pch */ = {isa = PBXFileReference; path = "testPython-Prefix.pch"; sourceTree = "<group>"; };
+		A1E0C29F15FA026600C3A820 /* testPython-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testPython-Prefix.pch"; sourceTree = "<group>"; };
 		A1E0C2A115FA026600C3A820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		A1E0C2A315FA026600C3A820 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		A1E0C2A615FA026600C3A820 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
